@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--  +++++++++++++++     Start Of Head Section   +++++++++++++++++++++++++++++==++++++++ //-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Home page</title>
+
+<!--  +++++++++++++++     Start Of Meta Section   +++++++++++++++++++++++++++++++++++++++ //-->
+
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+<meta name="Author" content="james Cosgrave"/>
+
+<!--  +++++++++++++++     End Of Meta Section   +++++++++++++++++++++++++++++++++++++++ //-->
+
+<!--  +++++++++++++++     Start Of Link Section   +++++++++++++++++++++++++++++++++++++++ //-->
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="css/container.css"    rel="stylesheet" type="text/css" />
+<link href="css/menus.css"    rel="stylesheet" type="text/css" />
+<script type= "text/javascript" src="js/jquery-1.4.1.min.js"></script>
+<script type= "text/javascript" src="js/custom.js"></script>
+<link href="css/menu.css"    rel="stylesheet" type="text/css" />
+
+<!--  +++++++++++++++     End Of Link Section     +++++++++++++++++++++++++++++++++++++++ //-->
+
+</head>
+
+<!--  +++++++++++++++     End Of Head Section   +++++++++++++++++++++++++++++++++++++++++ //-->
+
+<!--  +++++++++++++++     Start Of Body Section   +++++++++++++++++++++++++++++++++++++++ //-->
+<body id="body">
+
+<!--  +++++++++++++++     Start Of container page    +++++++++++++++++++++++++++++++++++ //-->
+
+        <div id="container_page">
+
+<!--  +++++++++++++++     End of container page   +++++++++++++++++++++++++++++++++++++ //-->
+
+<!--  +++++++++++++++     Start Of container  banner    +++++++++++++++++++++++++++++++ //-->
+        <div  id="container_banner">
+
+           </div>
+
+<!--  +++++++++++++++     End Of container  banner    +++++++++++++++++++++++++++++++++ //-->
+
+<!--  +++++++++++++++     Start Of container  menu bar    +++++++++++++++++++++++++++++ //-->
+        <div  id="container_menubar">
+
+          <div id="horz_menu1">
+
+            <div id="menu1_listing">
+                       <ul>
+                        <li>
+                             <a href="index.html"> Home</a>
+                             <a href="gameoft.html">Reviews</a>
+                             <a href="events.html">Events</a>
+                             <a href="signup.html">Sign Up</a>
+                             <a href="contact.html">Contact</a>
+                              </li>
+                                  </ul>
+                                     </div>
+
+                             </div>
+ <!-- +++++++++++++ end of horz_menu1 ++++++++++++++++++++++++++++++++++++++++++++++++//-->
+                             </div>
+
+<!--  +++++++++++++++     End Of container  menu bar    ++++++++++++++++++++++++++++++ //-->
+
+<!--  +++++++++++++++     Start Of container left column   +++++++++++++++++++++++++++ //-->
+
+<div id="container_left_column">
+
+<!--  +++++++++++++++     Start Of container left column one   +++++++++++++++++++++++++++ //-->
+
+<a href="http://www.facebook.com/">
+<img  id="fb" src="css/fb.jpg" alt="alternative text" />
+</a>
+
+<a href="https://twitter.com/">
+<img  id="twit" src="css/twitter.jpg" alt="alternative text" />
+</a>
+
+<a href="https://accounts.google.com/">
+<img  id="gmail" src="css/gm.jpg" alt="alternative text" />
+</a>
+
+<a href="http://www.gamestop.ie/">
+<img  id="game" src="css/gs.jpg" alt="alternative text" />
+</a>
+
+</div>
+
+<!--  +++++++++++++++     End Of container left column one +++++++++++++++++++++++++ //-->
+
+<!--  +++++++++++++++     Start Of container left column two   +++++++++++++++++++++ //-->
+
+<div id="left2">
+
+<!--  +++++++++++++++     Start Of tic tac toe java script      ++++++++++++++++++++ //-->
+
+<div id="tictac">
+
+
+<p id="p2">
+
+Have you got what it takes<br/> to beat Me!!! The game Xs and Os.
+
+</p>
+
+
+<script type= "text/javascript" src="java/tictac.js" >
+
+
+</script>
+<!--  +++++++++++++++     this will not validate in xhtml as explaind in class i have tried all alternatives andicound notfind a solution     ++++++++++++++++++++ //-->
+
+<form  action="" name="tic">
+<input  type="button" id= "sqr1" class="tictac" value="     " onClick="if(document.tic.sqr1.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 1) {document.tic.sqr1.value = ' X '; sqr1T = 1; turn = 1; vari(); check();} else if(document.tic.sqr1.value == '     ' &amp;&amp; turn == 1 &amp;&amp; mode == 2) {document.tic.sqr1.value = ' X '; sqr1T = 1; turn = 0; vari(); player1Check()} else if(document.tic.sqr1.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 2) {document.tic.sqr1.value = ' O '; sqr1T = 1; turn = 1; vari(); player1Check()} drawCheck()"/>
+<input  type="button" id= "sqr2" class="tictac" value="     " onClick="if(document.tic.sqr2.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 1) {document.tic.sqr2.value = ' X '; sqr2T = 1; turn = 1; vari(); check();} else if(document.tic.sqr2.value == '     ' &amp;&amp; turn == 1 &amp;&amp; mode == 2) {document.tic.sqr2.value = ' X '; sqr2T = 1; turn = 0; vari(); player1Check()} else if(document.tic.sqr2.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 2) {document.tic.sqr2.value = ' O '; sqr2T = 1; turn = 1; vari(); player1Check()} drawCheck()"/>
+<input  type="button" id= "sqr3" class="tictac" value="     " onClick="if(document.tic.sqr3.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 1) {document.tic.sqr3.value = ' X '; sqr3T = 1; turn = 1; vari(); check();} else if(document.tic.sqr3.value == '     ' &amp;&amp; turn == 1 &amp;&amp; mode == 2) {document.tic.sqr3.value = ' X '; sqr3T = 1; turn = 0; vari(); player1Check()} else if(document.tic.sqr3.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 2) {document.tic.sqr3.value = ' O '; sqr3T = 1; turn = 1; vari(); player1Check()} drawCheck()"/><br />
+<input  type="button" id= "sqr4" class="tictac" value="     " onClick="if(document.tic.sqr4.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 1) {document.tic.sqr4.value = ' X '; sqr4T = 1; turn = 1; vari(); check();} else if(document.tic.sqr4.value == '     ' &amp;&amp; turn == 1 &amp;&amp; mode == 2) {document.tic.sqr4.value = ' X '; sqr4T = 1; turn = 0; vari(); player1Check()} else if(document.tic.sqr4.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 2) {document.tic.sqr4.value = ' O '; sqr4T = 1; turn = 1; vari(); player1Check()} drawCheck()"/>
+<input  type="button" id= "sqr5" class="tictac" value="     " onClick="if(document.tic.sqr5.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 1) {document.tic.sqr5.value = ' X '; sqr5T = 1; turn = 1; vari(); check();} else if(document.tic.sqr5.value == '     ' &amp;&amp; turn == 1 &amp;&amp; mode == 2) {document.tic.sqr5.value = ' X '; sqr5T = 1; turn = 0; vari(); player1Check()} else if(document.tic.sqr5.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 2) {document.tic.sqr5.value = ' O '; sqr5T = 1; turn = 1; vari(); player1Check()} drawCheck()"/>
+<input  type="button" id= "sqr6" class="tictac" value="     " onClick="if(document.tic.sqr6.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 1) {document.tic.sqr6.value = ' X '; sqr6T = 1; turn = 1; vari(); check();} else if(document.tic.sqr6.value == '     ' &amp;&amp; turn == 1 &amp;&amp; mode == 2) {document.tic.sqr6.value = ' X '; sqr6T = 1; turn = 0; vari(); player1Check()} else if(document.tic.sqr6.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 2) {document.tic.sqr6.value = ' O '; sqr6T = 1; turn = 1; vari(); player1Check()} drawCheck()"/><br />
+<input  type="button" id= "sqr7" class="tictac" value="     " onClick="if(document.tic.sqr7.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 1) {document.tic.sqr7.value = ' X '; sqr7T = 1; turn = 1; vari(); check();} else if(document.tic.sqr7.value == '     ' &amp;&amp; turn == 1 &amp;&amp; mode == 2) {document.tic.sqr7.value = ' X '; sqr7T = 1; turn = 0; vari(); player1Check()} else if(document.tic.sqr7.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 2) {document.tic.sqr7.value = ' O '; sqr7T = 1; turn = 1; vari(); player1Check()} drawCheck()"/>
+<input  type="button" id= "sqr8" class="tictac" value="     " onClick="if(document.tic.sqr8.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 1) {document.tic.sqr8.value = ' X '; sqr8T = 1; turn = 1; vari(); check();} else if(document.tic.sqr8.value == '     ' &amp;&amp; turn == 1 &amp;&amp; mode == 2) {document.tic.sqr8.value = ' X '; sqr8T = 1; turn = 0; vari(); player1Check()} else if(document.tic.sqr8.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 2) {document.tic.sqr8.value = ' O '; sqr8T = 1; turn = 1; vari(); player1Check()} drawCheck()"/>
+<input  type="button" id= "sqr9" class="tictac" value="     " onClick="if(document.tic.sqr9.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 1) {document.tic.sqr9.value = ' X '; sqr9T = 1; turn = 1; vari(); check();} else if(document.tic.sqr9.value == '     ' &amp;&amp; turn == 1 &amp;&amp; mode == 2) {document.tic.sqr9.value = ' X '; sqr9T = 1; turn = 0; vari(); player1Check()} else if(document.tic.sqr9.value == '     ' &amp;&amp; turn == 0 &amp;&amp; mode == 2) {document.tic.sqr9.value = ' O '; sqr9T = 1; turn = 1; vari(); player1Check()} drawCheck()"/>
+</form>
+
+<!--  +++++++++++++++     this will not validate in xhtml as explaind in class i have tried all alternatives andicound notfind a solution     ++++++++++++++++++++ //-->
+
+<!--  +++++++++++++++     End Of tic tac toe java script      ++++++++++++++++++++ //-->
+
+</div>
+
+<!--  +++++++++++++++     End Of container left column two   +++++++++++++++++++++ //-->
+
+</div>
+
+<!--  +++++++++++++++     End Of container left column two   ++++++++++++++++++++++++++ //-->
+
+<!--  +++++++++++++++     Start Of container left column three   ++++++++++++++++++++++ //-->
+
+<div id="left3">
+
+
+<a href="http://www.xbox.com/en-IE">
+<img id="xbox" src="css/xbox.jpg" alt="alternative text" />
+</a>
+
+<a href="http://uk.playstation.com/ps3/">
+<img id="ps3" src="css/ps31.gif" alt="alternative text" />
+</a>
+
+<a href="http://www.nintendo.com/wii">
+<img id="wii" src="css/wii.jpg" alt="alternative text" />
+</a>
+
+<a href="http://www.pcgamer.com/">
+<img id="pc" src="css/pc.jpg" alt="alternative text" />
+</a>
+
+</div>
+
+<div id="menu">
+
+
+
+
+</div>
+
+<!--  +++++++++++++++     End Of container left column three  ++++++++++++++++++++++ //-->
+
+<!--  +++++++++++++++     start of container main column +++++++++++++++++++++++++++ //-->
+
+<div id="container_main_column">
+
+<!--  +++++++++++++++     Start Of sub main div  +++++++++++++++++++++++++++++++++++ //-->
+
+<div id="submain">
+
+<p id="p">
+<b/>
+Welcome to P3nAlPineapple.ie <br/> Your #1 source for Halo 4 information and News,
+Browse all of our Latest videos from our Halo 4 Analysis videos to our Gameplay and Lets Play Videos
+</p>
+
+
+
+<div id="side" class="sidebarmenu">
+<ul id="sidebarmenu1">
+<li type="none"><a href="http://www.ign.com/">IGN</a></li>
+<li><a href="http://www.gamepro.com/">GamePro</a></li>
+<li><a href="http://www.gamespot.com/">GameSpot</a></li>
+<li><a href="http://www.gamingbolt.com/">GamingBolt</a></li>
+<li><a href="http://www.gameranx.com/">GameRanx</a></li>
+</ul>
+</div>
+
+
+</div>
+
+<!--  +++++++++++++++     End Of sub main div  +++++++++++++++++++++++++++++++++++++++ //-->
+
+
+<!--  +++++++++++++++     start of spartan image div   +++++++++++++++++++++++++++++++ //-->
+
+<div id="spartan">
+</div>
+
+<div id="spartan1">
+</div>
+
+<!--  +++++++++++++++     end Of spartan image div   ++++++++++++++++++++++++++++++++++++ //-->
+
+</div>
+
+<!--  +++++++++++++++     Start Of container_footer++++++++++++++++++++++++++++++++++++++++ //-->
+
+<div id="container_footer">
+
+<!--  +++++++++++++++     Start Of footer scrolling text java script ++++++++++++++++++++++ //-->
+
+<script type= "text/javascript" src="java/Stext.js">
+
+</script>
+
+<!--  +++++++++++++++     end Of footer scrolling text java script ++++++++++++++++++++++++++ //-->
+
+</div>
+
+<div id="tw">
+<script type="text/javascript" src="js/twitter.js"></script>
+
+</div>
+
+<!--  +++++++++++++++     end Of container footer  ++++++++++++++++++++++++++++++++++++++++++ -->
+
+</div>
+
+<!--  +++++++++++++++     end Of container page    +++++++++++++++++++++++++++++++++++++++++ //-->
+
+<!--  +++++++++++++++     end Of Body Section   ++++++++++++++++++++++++++++++++++++++++++++ //-->
+</body>
+<!--  +++++++++++++++     end Of html Section   +++++++++++++++++++++++++++++++++++++++++++ //-->
+</html>
+
